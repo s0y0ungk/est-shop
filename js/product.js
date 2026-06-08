@@ -125,12 +125,3 @@ const addcart = document.querySelector("#addcart");
 addcart.addEventListener("click", () => {
   addToCart(product, Number(quantity.value));
 });
-
-/*
-과제 1 - 상품 상세 탭 구현(product.js 작성)
-
-
-과제 2 - 장바구니 페이지 상품 목록 출력(cart.js)
-로컬스토리지에의 장바구니 정보를 조회 변수 cartItems에 할당 
-클래스명 cart - layout의 내용의 뒤에 태그 생성
-*/
